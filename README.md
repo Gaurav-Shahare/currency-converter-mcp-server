@@ -34,14 +34,14 @@ The server will start and listen for requests on standard input/output.
 
 Before running the server with a client, make sure you have built the project using `npm run build`.
 
-Here is an example MCP configuration to connect to this server. The `args` path should point to the compiled `index.js` file in the `build` directory.
+Here is an example MCP configuration for a host like VScode to connect to this server. The `args` path should point to the compiled `index.js` file in the `build` directory.
 
 ```json
 "my-mcp-server-e78fecda": {
   "type": "stdio",
   "command": "node",
   "args": [
-    "/Users/gauravshahare/Desktop/my_mcp_servers/currency-converter/mcp-server/build/index.js"
+    "<PATH_TO_INDEX_JS>/build/index.js"
   ]
 }
 ```
@@ -54,7 +54,7 @@ Look up the full name of a currency based on its code.
 
 **Input:**
 
-*   `currencyCode` (string): Three-letter currency code (e.g., USD, EUR).
+- `currencyCode` (string): Three-letter currency code (e.g., USD, EUR).
 
 **Output:**
 
@@ -66,9 +66,9 @@ Convert an amount from one currency to another.
 
 **Input:**
 
-*   `value` (number): The amount to convert.
-*   `sourcecurrencyCode` (string): The source currency code.
-*   `targetcurrencyCode` (string): The target currency code.
+- `value` (number): The amount to convert.
+- `sourcecurrencyCode` (string): The source currency code.
+- `targetcurrencyCode` (string): The target currency code.
 
 **Output:**
 
