@@ -64,4 +64,4 @@ The converted amount.
 
 ## Credits
 
-The currency conversion APIs are provided by the [Currency API](https.github.com/fawazahmed0/exchange-api) project.
+The currency conversion APIs are provided by the https://github.com/fawazahmed0/exchange-api project.
