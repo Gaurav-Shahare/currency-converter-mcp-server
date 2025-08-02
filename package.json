@@ -1,0 +1,25 @@
+{
+  "name": "mcp-server",
+  "type":"module",
+  "version": "1.0.0",
+  "description": "a simple currency converter mcp server",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc && chmod 755 build/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.17.0",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "@types/node": "^24.1.0",
+    "typescript": "^5.8.3"
+  },
+  "bin": {
+    "currency-converter": "./build/index.js"
+  },
+  "files": ["build"]
+}
