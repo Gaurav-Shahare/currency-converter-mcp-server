@@ -48,18 +48,6 @@ Here is an example MCP configuration for a host like VScode to connect to this s
 
 ## Available Tools
 
-### `get-currencies-fullname`
-
-Look up the full name of a currency based on its code.
-
-**Input:**
-
-- `currencyCode` (string): Three-letter currency code (e.g., USD, EUR).
-
-**Output:**
-
-The full name of the currency.
-
 ### `get-currency-conversion`
 
 Convert an amount from one currency to another.
